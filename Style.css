@@ -1,9 +1,10 @@
 body{
-    background-image: url(Ragnar\ pic.jpg);
+    background-image: url(ragna.jpg);
     font-family: 'Courier New', Courier, monospace;
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
+    font-weight: bold;
 }
 
 h1{
@@ -34,6 +35,14 @@ h1{
     font-size: 17px;
 }
 
+.game{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.reg{
+    font-size: 20px;
+    font-weight: bold;
+}
 .info{
     color: yellow;
 }
@@ -46,4 +55,38 @@ hr{
     background-color: white;
     border-color: white;
     width: 30%;
+}
+
+
+.link{
+    color: yellow;
+}
+.link:visited{
+    color: white;
+}
+.link:hover{
+    color:red;
+}
+.link:active{
+    color: brown;
+}
+.contacts{
+    font-size: 30px;
+    text-align: center;
+    color: yellow;
+}
+.epicnpc{
+    font-size: 30px;
+}
+.epicnpc{
+    color: yellow;
+}
+.epicnpc:visited{
+    color: white;
+}
+.epicnpc:hover{
+    color:red;
+}
+.epicnpc:active{
+    color: brown;
 }
