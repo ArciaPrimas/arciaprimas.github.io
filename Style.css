@@ -7,11 +7,18 @@ body{
     font-weight: bold;
     font-size: 35px;
 }
-
+@font-face {
+    font-family: myfont;
+    src: url(Calamity\ Outline.otf)
+}
+@font-face {
+    font-family: myfont2;
+    src: url(Calamity\ Regular.otf);
+}
 h1{
-    color: rgb(212, 0, 0);
+    color:red;
     margin:0%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont2;
 }
 
 .intro{
@@ -101,7 +108,6 @@ hr{
     background-color: white;
     border-color: white;
     width: 30%;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .link{
