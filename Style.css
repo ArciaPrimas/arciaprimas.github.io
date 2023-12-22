@@ -1,6 +1,9 @@
 body{
     background-image: url(zoro.png);
-    font-family: 'Courier New', Courier, monospace;
+    @font-face {
+        font-family: myfont3;
+        src: url(grind.ttf);
+    }
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
@@ -8,32 +11,34 @@ body{
     font-size: 35px;
 }
 @font-face {
-    font-family: myfont;
-    src: url(Calamity\ Outline.otf)
-}
-@font-face {
-    font-family: myfont2;
-    src: url(Calamity\ Regular.otf);
+    font-family: myfont3;
+        src: url(grind.ttf);
 }
 h1{
-    color:red;
-    margin:0%;
-    font-family: myfont2;
+    color:white;
+    margin:0px;
+    font-family: myfont3;
 }
-
+.span{
+    background-color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
 .intro{
-    color:yellow;
+    color:white;
     font-size: 25px;
     margin:0%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
     font-weight: bolder;
+    padding:0px;
 }
 
 
 .how{
-    color: yellow;
+    color: red;
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 
 }
 
@@ -43,17 +48,17 @@ h1{
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 
 .steps{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 
 .account{
     color: yellow;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
     font-style: monospace;
     font-size: 17px;
     font-weight: bolder;
@@ -61,7 +66,7 @@ h1{
 .verify{
     color: red;
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
     font-weight: bolder;
     text-decoration: underline;
     margin: 0%;
@@ -69,9 +74,9 @@ h1{
 
 .game{
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
     font-weight: bolder;
-    color: red;
+    color: white;
     text-decoration: underline;
     margin: 0%;
 
@@ -79,28 +84,28 @@ h1{
 .reg{
     font-size: 25px;
     font-weight: bolder;
-    font-family: 'Courier New', Courier, monospace;
-    color: yellow;
+    font-family: myfont3;
+    color: red;
 }
 .info{
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-family: myfont3;
     font-weight: bolder;
     font-size: 20px;
-    margin:0%;
+    margin:auto;
 
 }
 
 .select{
-    color: yellow;
-    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-family: myfont3;
     font-weight: bolder;
     font-size: 20px;
     margin:0%;
 }
 .payment{
     color: yellow;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 
 hr{
@@ -112,53 +117,53 @@ hr{
 
 .link{
     color: yellow;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 .link:visited{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 .link:hover{
-    color:red;
-    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    font-family: myfont3;
 }
 .link:active{
     color: brown;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 .contacts{
     font-size: 30px;
     text-align: center;
     color: yellow;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 .epicnpc{
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 .epicnpc{
     color: yellow;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 .epicnpc:visited{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 .epicnpc:hover{
-    color:red;
-    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    font-family: myfont3;
 }
 .epicnpc:active{
     color: brown;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 fieldset{
     font-size: 20px;
     color: yellow;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
 legend{
     text-align: center;
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myfont3;
 }
