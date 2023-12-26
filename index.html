@@ -22,7 +22,8 @@
 <div>
     <hr>
     <div class="account">
-        <p class="reg">Register an account</p> 
+        <h2 class="reg" >Register an account</h2> 
+        <div>
             <label class="info"> Username: <input type="text" name="username" placeholder="Username" required minlength="8"> </label>
             <label class="info"> Password: <input type="password" name="password" placeholder="Password" required minlength="8"> </label>
             <label class="info"> Email Address: <input type="email" name="Email Address" placeholder="Email Address" required> </label>
@@ -30,19 +31,33 @@
             <label class="info"><label><input id="female" value="female" type="radio" name="male-female">Female</label> </label>
             <p> <button style="color:black"> Submit </button> </p>
             <p class="verify">Verify your account thru email address</p>
+        </div>
         <hr>
-            <p class="how"> How to order:</p>
-            <p class="game">Which Game?</p>
-            <p><label class="select"><input class="game" checked id="Ragnarok" value="Ragnarok" type="radio" name="Ragnarok-Albion" >Ragnarok<label><input checked id="Albion" value="Albion" type="radio" name="Ragnarok-Albion" >Albion</label></label></p>
-            <p class="game">Which Server?<p>
-            <p><label class="select"><input checked id="Niflheim" value="Niflheim" type="radio" name="account-type">Niflheim</label>
-               <label class="select"><input checked id="Helheim" value="Helheim" type="radio" name="account-type">Helheim</label>
-               <label class="select"><input checked id="East" value="East" type="radio" name="account-type">East</label>
-               <label class="select"><input checked id="West" value="West" type="radio" name="account-type">West</label>
-            </p>
-            <p class="game">Quantity</p>
-            <p><input type="text" name="quantity" placeholder="Zeny or Silver Quantity" required></p>
-         <hr>
+        <div>
+            <h3 class="how"> How to order:</h3>
+            <label class="game">Which Game?</label>
+            <select>
+                <option>Select a game</option>
+                <option>Ragnarok(SMRO)</option>
+                <option>Albion Online</option>
+            </select>
+        </div>
+        <div>
+            <label class="game">Which Server?</label>
+            <select>
+                <option>Select a server</option>
+                <option>Nifheilm</option>
+                <option>Helheim</option>
+                <option>East</option>
+                <option>West</option>
+            </select>
+        </div>
+        <div>
+            <label class="game">Quantity:</label>
+            <label><input type="number text" name="quantity" placeholder="Zeny or Silver Quantity" required></label>
+            <p><input type="submit" value="Submit"/></p>
+        </div>
+            <hr>
             <p class="info"> Identify or click your payment method:</p>
             <p class="sites">
               <a class="link" target="_blank" href="https://www.paypal.com/ph/home"> Paypal,</a> 
