@@ -14,31 +14,31 @@
      </div>
     <hr>   
     <style> p {text-align: center;}</style>
-    <p class="intro"> With years of experience in the gaming industry,
-                    <br> we've built a reputation for reliability. 
-                    <br>Gamers trust us for safe and secure transactions, 
-                    <br>ensuring that your hard-earned victories are never compromised. 
+    <p class="intro"> <span class="span">With years of experience in the gaming industry,
+                      we've built a reputation for reliability. 
+                      Gamers trust us for safe and secure transactions, 
+                      ensuring that your hard-earned victories are never compromised. </span>
    </p>
 <div>
     <hr>
     <div class="account">
         <p class="reg">Register an account</p> 
-            <p class="info"> Username: <input type="text" name="username" placeholder="Username" required> </p>
-            <p class="info"> Password: <input type="password" name="password" placeholder="Password" required> </p>
-            <p class="info"> Email Address: <input type="text" name="Email Address" placeholder="Email Address" required> </p>
-            <p class="info"><label><input checked id="male" value="male" type="radio" name="male-female">Male</label> </p>
-            <p class="info"><label><input id="female" value="female" type="radio" name="male-female">Female</label> </p>
+            <label class="info"> Username: <input type="text" name="username" placeholder="Username" required minlength="8"> </label>
+            <label class="info"> Password: <input type="password" name="password" placeholder="Password" required minlength="8"> </label>
+            <label class="info"> Email Address: <input type="email" name="Email Address" placeholder="Email Address" required> </label>
+            <label class="info"><label><input checked id="male" value="male" type="radio" name="male-female">Male</label> </label>
+            <label class="info"><label><input id="female" value="female" type="radio" name="male-female">Female</label> </label>
             <p> <button style="color:black"> Submit </button> </p>
             <p class="verify">Verify your account thru email address</p>
-            <hr>
+        <hr>
             <p class="how"> How to order:</p>
             <p class="game">Which Game?</p>
             <p><label class="select"><input class="game" checked id="Ragnarok" value="Ragnarok" type="radio" name="Ragnarok-Albion" >Ragnarok<label><input checked id="Albion" value="Albion" type="radio" name="Ragnarok-Albion" >Albion</label></label></p>
             <p class="game">Which Server?<p>
-            <p><label class="select"><input checked id="Niflheim" value="Niflheim" type="radio" name="Niflheim-Helheim-East-West">Niflheim</label>
-               <label class="select"><input checked id="Helheim" value="Helheim" type="radio" name="Niflheim-Helheim-East-West">Helheim</label>
-               <label class="select"><input checked id="East" value="East" type="radio" name="Niflheim-Helheim-East-West">East</label>
-               <label class="select"><input checked id="West" value="West" type="radio" name="Niflheim-Helheim-East-West">West</label>
+            <p><label class="select"><input checked id="Niflheim" value="Niflheim" type="radio" name="account-type">Niflheim</label>
+               <label class="select"><input checked id="Helheim" value="Helheim" type="radio" name="account-type">Helheim</label>
+               <label class="select"><input checked id="East" value="East" type="radio" name="account-type">East</label>
+               <label class="select"><input checked id="West" value="West" type="radio" name="account-type">West</label>
             </p>
             <p class="game">Quantity</p>
             <p><input type="text" name="quantity" placeholder="Zeny or Silver Quantity" required></p>
