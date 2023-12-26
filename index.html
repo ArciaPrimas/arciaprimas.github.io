@@ -14,29 +14,34 @@
      </div>
     <hr>   
     <style> p {text-align: center;}</style>
+<div>
     <p class="intro"> <span class="span">With years of experience in the gaming industry,
                       we've built a reputation for reliability. 
                       Gamers trust us for safe and secure transactions, 
                       ensuring that your hard-earned victories are never compromised. </span>
-   </p>
+    </p>
+</div>
 <div>
     <hr>
     <div class="account">
         <h2 class="reg" >Register an account</h2> 
-        <div>
-            <label class="info"> Username: <input type="text" name="username" placeholder="Username" required minlength="8"> </label>
-            <label class="info"> Password: <input type="password" name="password" placeholder="Password" required minlength="8"> </label>
-            <label class="info"> Email Address: <input type="email" name="Email Address" placeholder="Email Address" required> </label>
-            <label class="info"><label><input checked id="male" value="male" type="radio" name="male-female">Male</label> </label>
-            <label class="info"><label><input id="female" value="female" type="radio" name="male-female">Female</label> </label>
-            <p> <button style="color:black"> Submit </button> </p>
-            <p class="verify">Verify your account thru email address</p>
+        <div class="reg2">
+            <label class="info"> Username: </label> 
+                <input class="holder" type="text" name="username" placeholder="Username" required minlength="8"> 
+            <label class="info"> Password: </label>  
+                <input class="holder" type="password" name="password" placeholder="Password" required minlength="8"> 
+            <label class="info"> Email Address:</label>  
+                <input class="holder" type="email" name="Email Address" placeholder="Email Address" required> 
+            <label class="info"><label><input checked id="male" value="male" type="radio" name="male-female">Male</label> 
+            <label class="info"><label><input id="female" value="female" type="radio" name="male-female">Female</label> 
         </div>
+        <div><p><input class="button" type="button" value="Submit"/></p></div>
+        <p class="verify">Verify your account thru email address</p>
         <hr>
         <div>
             <h3 class="how"> How to order:</h3>
             <label class="game">Which Game?</label>
-            <select>
+            <select class="select1">
                 <option>Select a game</option>
                 <option>Ragnarok(SMRO)</option>
                 <option>Albion Online</option>
@@ -44,7 +49,7 @@
         </div>
         <div>
             <label class="game">Which Server?</label>
-            <select>
+            <select class="select1">
                 <option>Select a server</option>
                 <option>Nifheilm</option>
                 <option>Helheim</option>
@@ -54,9 +59,9 @@
         </div>
         <div>
             <label class="game">Quantity:</label>
-            <label><input type="number text" name="quantity" placeholder="Zeny or Silver Quantity" required></label>
-            <p><input type="submit" value="Submit"/></p>
+            <label><input class="select1" type="number text" name="quantity" placeholder="Zeny or Silver Quantity" required></label>   
         </div>
+            <div><p><input class="button" type="submit" value="Submit"/></p></div>
             <hr>
             <p class="info"> Identify or click your payment method:</p>
             <p class="sites">
